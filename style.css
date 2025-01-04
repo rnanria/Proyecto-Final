@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", serif;
+    background-color: #e6f0ff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #011124;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+
+.header-txt p a {
+    color: #99e721;
+    line-height: 5;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #99e721;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li:hover {
+    color: #99e721;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    padding: 0 150px;
+}
+
+.header-txt h1 {
+    font-size: 55px;
+    line-height: 1;
+    color: #FDFEFF;
+    margin-bottom: 25px;
+}
+
+span {
+    color: #99e721;
+}
+
+p {
+    font-size: 17px;
+    color: #D2D2D2;
+    margin-bottom: 35px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 80px;
+    gap: 20px; 
+}
+
+.information-1 {
+    flex: 1 1 calc(30% - 20px); 
+    margin: 0;
+    background-color: #011124;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.information-1 h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.information-1 p {
+    margin-bottom: 5px;
+}
+
+.information-1 a {
+    color: white;
+    text-decoration: underline;
+}
+
+.information-1:hover {
+    cursor: pointer;
+    background-color: #99e721;
+}
+
+.about-container {
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+}
+
+.about-img {
+    flex-basis: 50%;
+}
+
+.about-img img {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.about-txt {
+    flex-basis: 100%;
+    max-width: 800px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 40px;
+    color:#011124;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.tips {
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-txt {
+    flex-basis: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: #000000;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.advice-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    list-style: none; 
+    padding: 0;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.advice-list li {
+    padding: 10px;
+    background-color: #f9f9f9; 
+    border-left: 4px solid #011124; 
+    border-radius: 5px;
+}
+
+.advice-list h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #011124; 
+}
+
+.advice-list li:hover {
+    background-color: #e6ffeb; 
+    transition: background-color 0.3s ease;
+}
+
+.about-txt p {
+    color: #011124;
+}
+
+.about-txt a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #011124;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-txt a:hover {
+    background-color: #99e721;
+    transition: background-color 0.3s ease;
+}
+
+
+.intro {
+    color: #011124;
+    font-size: 15px;
+}
+
+.titulo {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.content .text p {
+    text-align: left;
+    font-size: 20px;
+    color: #011124;
+}
+
+h5 {
+    font-size: 30px;
+    text-align: left;
+    color: #011124;
+}
+
+.text {
+    flex-basis: 50%;
+    padding: 1rem;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.tipos-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    list-style: none; 
+    padding: 0;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.tipos-list li {
+    padding: 10px;
+    background-color: white; 
+    border: 2px solid #011124; 
+    border-radius: 5px;
+}
+
+.tipos-list h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #011124; 
+}
+
+.tipos-list li:hover {
+    background-color: #e6ffeb; 
+    transition: background-color 0.3s ease;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #011124;
+    color: white;
+    margin-top: 2rem;
+}

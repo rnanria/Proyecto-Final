@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⋆࿔*</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<header class="header">
+    <div class="menu container">
+        <a class="logo">✶</a>
+        <label for="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+            </ul>
+        </nav>
+    </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Energías <span>renovables</span></h1>
+                <p>
+                    Aquí encontrarás detalles más profundos sobre las fuentes de energía sostenible.
+                    <br>
+                    <a href="{{ url_for('home') }}">Volver al inicio</a>
+                </p>
+            </div>
+        </div>
+    </header>
+
+   
+</header>
+{% block content %}
+<main class="titulo">
+    <h2>¿Por qué son <span>importantes</span> las Energías Renovables?</h2>
+    <section class="content">
+        <div class="text">
+            <h5><span>⭑ </span> Beneficios Ambientales</h5>
+            <p>Las energías renovables ayudan a reducir
+                <br>
+            las emisiones de gases de efecto 
+            invernadero, disminuyendo el impacto delcambio climático.</p>
+
+            <h5><span>⭑ </span> Conservación de Recursos</h5>
+            <p>Al aprovechar fuentes inagotables como
+                <br>
+                 el sol y el viento, reducimos la dependencia de combustibles fósiles.</p>
+
+            <h5><span>⭑ </span> Beneficios Económicos</h5>
+            <p>El uso de energías limpias genera empleos 
+                <br>y reduce los costos energéticos a largo plazo.</p>
+        </div>
+
+        <div class="image">
+            <img src="C:\Users\Dream on\Downloads\web web\www\static\img\t1.jpg" alt="Energías Renovables">
+        </div>
+    </section>
+
+    <section class="tipos">
+
+        <div class="tipos-txt">
+            <span class="intro"></span>
+            <h2>Tipos de energías renovables</h2>
+            <ul class="tipos-list">
+                <li>
+                    <h4>Energía solar: </h4> 
+                    Aprovecha la radiación solar para generar electricidad.                
+                </li>
+                <li>
+                    <h4>Energía eólica:</h4> 
+                    Utiliza la fuerza del viento para mover turbinas y producir electricidad
+                </li>
+                <li>
+                    <h4>Energía hidráulica:</h4> 
+                    Aprovecha la energía del agua en movimiento para generar electricidad.
+                </li>
+                <li>
+                    <h4>Energía geotérmica:</h4> 
+                    Utiliza el calor del interior de la Tierra para producir electricidad o calefacción.
+                </li>
+                <li>
+                    <h4>Biomasa:</h4> 
+                    Aprovecha la energía contenida en la materia orgánica para generar electricidad o calor.
+                </li>
+                <li>
+                    <h4>Energía mareomotriz:</h4>
+                    es una fuente de energía renovable que se obtiene del movimiento de las mareas y se transforma en electricidad
+                </li>
+            </ul>
+        </div>
+    </section>
+    {% endblock %}
+</main>
+<footer>
+    <p>˙⋆✮⋆˙</p>
+</footer>
+
+</body>
+</html>
